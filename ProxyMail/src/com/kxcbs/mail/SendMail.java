@@ -1,4 +1,4 @@
-package com.kxcbs.mail;
+﻿package com.kxcbs.mail;
 import java.util.List;
 import java.util.Properties;
 
