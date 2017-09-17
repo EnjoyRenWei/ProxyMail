@@ -18,7 +18,7 @@ public class MailUtils {
     	
         SendMail cn = new SendMail();
         // 设置发件人地址、收件人地址和邮件标题
-        cn.setAddress("邮箱名", "密码",send_list,cc_list,bcc_list,"测试发送失败","测试正文内容");
+        cn.setAddress("邮箱名",send_list,cc_list,bcc_list,"测试发送失败","测试正文内容");
         // 设置要发送附件的位置和标题
         cn.setAttachMent("G:\\mailtest\\teacher测试结果.xls", "teacher测试结果.xls");
         
@@ -29,7 +29,7 @@ public class MailUtils {
          * 因为程序属于第三方登录，所以登录密码必须使用163的授权码  
          */
         // 注意： [授权码和你平时登录的密码是不一样的]
-        cn.send("邮箱名", "密码", "cspm1qazxsw2");
+        cn.send("邮箱名", "密码");
         
         
         

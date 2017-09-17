@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="G:/任伟/下载/mail.jar_activation.jar/activation.jar"/>
-	<classpathentry kind="lib" path="G:/任伟/下载/mail.jar_activation.jar/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LJQ/Desktop/mail.jar_activation.jar/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LJQ/Desktop/mail.jar_activation.jar/mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
